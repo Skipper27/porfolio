@@ -231,7 +231,21 @@ a {
         flex-direction: column;
     }
     .habilidades__lista {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas en la primera fila */
+        grid-template-rows: auto auto; /* Dos filas automáticas */
+        gap: 20px; /* Espaciado entre los elementos */
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .aficiones__lista {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas en la primera fila */
+        grid-template-rows: auto auto; /* Dos filas automáticas */
+        gap: 20px; /* Espaciado entre los elementos */
+        justify-content: center;
+        align-items: center;
     }
 
     
