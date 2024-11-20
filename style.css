@@ -239,20 +239,28 @@ a {
     }
     .habilidades__lista {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas en la primera fila */
-        grid-template-rows: auto auto; /* Dos filas automáticas */
-        gap: 20px; /* Espaciado entre los elementos */
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: auto auto; 
+        gap: 20px; 
         justify-content: center;
         align-items: center;
     }
     
     .aficiones__lista {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas en la primera fila */
-        grid-template-rows: auto auto; /* Dos filas automáticas */
-        gap: 20px; /* Espaciado entre los elementos */
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: auto auto; 
+        gap: 20px;
         justify-content: center;
         align-items: center;
+    }
+    .contacto__formulario{
+        display: flex;
+        align-items: center;
+        max-width: 350px;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 10px;    
     }
     
 }
@@ -277,13 +285,12 @@ a {
 
     .presentacion__titulo {
         font-size: 1.8rem;
-        max-width: 500px;
+
     }
 
     .presentacion__subtitulo {
         font-size: 1.1rem;
-        display: flex;
-        max-width: 500px; 
+        display: flex; 
     }
     
     .redes{
@@ -310,24 +317,23 @@ a {
 
     .cabecera {
         display: flex;
-        justify-content: space-between; /* Espacio entre título y menú */
+        justify-content: space-between;
         align-items: center;
     }
 
     .cabecera__titulo {
-        font-size: 2.5rem; /* Tamaño del título */
+        font-size: 2.5rem; 
     }
 
     .navegacion__lista {
         display: flex;
-        gap: 20px; /* Espacio entre los elementos del menú */
+        gap: 20px;
     }
 
     .presentacion {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 1200px;
         margin: 0 auto; 
         padding: 50px;
    
@@ -345,26 +351,25 @@ a {
     }
 
     .presentacion__titulo {
-        font-size: 2rem; /* Título más grande */
-        max-width: 800px;
+        font-size: 2rem;
         margin-left: 3%;
     }
 
     .presentacion__subtitulo {
-        font-size: 1.5rem; /* Subtítulo más grande */
-        max-width: 600px;
+        font-size: 1.5rem; 
+
         margin-left: 5%;
     }
 
-    .presentacion__foto {
-        max-width: 350px; /* Tamaño máximo de la imagen */
-        border-radius: 10%; /* Esquinas redondeadas */
-        margin-left: 50px; /* Separación de la foto respecto al texto */
+    .presentacion__foto { 
+        border-radius: 10%; 
+        margin-left: 50px; 
     }
 
     .redes {
         display: flex;
         justify-content: center;
-        gap: 50px; /* Espaciado entre los ícon*/
+        gap: 50px;
     }
+
 }
