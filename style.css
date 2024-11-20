@@ -230,20 +230,24 @@ a {
         display: flex;
         flex-direction: column;
     }
+    .formacion__lista{
+        display: flex;
+        flex-direction: column;
+    }
     .habilidades__lista {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas en la primera fila */
-        grid-template-rows: auto auto; /* Dos filas automáticas */
-        gap: 20px; /* Espaciado entre los elementos */
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: auto auto; 
+        gap: 20px; 
         justify-content: center;
         align-items: center;
     }
     
     .aficiones__lista {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas en la primera fila */
-        grid-template-rows: auto auto; /* Dos filas automáticas */
-        gap: 20px; /* Espaciado entre los elementos */
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: auto auto; 
+        gap: 20px; 
         justify-content: center;
         align-items: center;
     }
