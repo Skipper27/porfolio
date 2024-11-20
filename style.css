@@ -1,10 +1,10 @@
 /* Este repositório base fué creado para ayudarte en caso que no sepas como comenzar, recuerda que el portafolio es tu carta de presentación y debes darle tu cara, por eso te invitamos a personalizarlo según tu estilo y preferencias no te limites apenas al layout propuesto en figma  
 */
 :root {
-    --color-de-fondo: #dbdbdb;
+    --color-de-fondo: #35353a;
     --color-de-fondo-menu: #dbdbdb;
-    --color-de-link: #000000;
-    --color-de-titulo: #6e7585;
+    --color-de-link: #ffffff;
+    --color-de-titulo: #6b6f76;
 }
 
 body {
@@ -14,6 +14,7 @@ body {
     box-sizing: border-box;
     padding: 0;
     line-height: 1.6;  
+    color: #eeecec;
 }
 
 header {
